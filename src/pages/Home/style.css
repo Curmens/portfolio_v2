@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap');
+@font-face {
+    font-family: "Regular";
+    src: url("../../assets/fonts/calluna-regular.otf");
+}
+
+.root{
+    background: #141732;
+    background: -webkit-linear-gradient(350deg,#181b36, #030407);
+    background: -o-linear-gradient(350deg,#181b36, #030407 100%);
+    background: linear-gradient(100deg,#13162d, #030407);
+    overflow: hidden;
+}
+
+.btns img{
+    width: 18px;
+    /* height: 20px; */
+    border-radius: 3px;
+}
+
+.btns img:hover{
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgb(230, 137, 7);
+    box-shadow: 0 0 5px 1px rgba(230, 137, 7, 0.5);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
